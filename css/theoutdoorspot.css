@@ -1,0 +1,188 @@
+header, main, nav, footer, figure { display: block; }
+
+body {
+  background-color: #af8144;
+  color: #fff;
+  font-family: Candara, Arial, sans-serif;
+}
+
+header {
+  color: #000;
+}
+
+#wrapper {
+  background-color: #fff;
+  box-shadow: 5px 5px 5px #2E0000;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 960px;
+  max-width: 2048px;
+  width: 85%;
+}
+
+h1 {
+  background-image: url(../images/outdoors_spot.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Candara, Arial, sans-serif;
+  height: 100px;
+  margin: 0;
+  text-indent: -9999px;
+}
+
+nav {
+  font-weight: bold;
+  float: left;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  width: 160px;
+}
+
+nav ul {
+  font-size: 1.2em;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav a { text-decoration: none; }
+
+nav a:link { color: #000; }
+
+nav a:visited { color: #228b22; }
+
+nav a:hover, nav a:focus { color: #0000ff; }
+
+nav ul ul {
+  position: absolute;
+  left: 130px;
+  top: 80px;
+  padding: 0;
+  display: none;
+  text-align: left;
+}
+
+nav ul ul li {
+  display: block;
+  width: 8em;
+  padding-left: 1em;
+  margin-left: 0;
+}
+
+nav li:hover ul { display: block; }
+
+main {
+  background-color: #fff;
+  color: #000;
+  display: block;
+  margin-left: 175px;
+  padding: 20px;
+}
+
+footer {
+  color: #000;
+  font-size: 1em;
+  font-style: italic;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+}
+
+input, textarea {
+  display: block;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  float: left;
+  padding-right: 5px;
+  text-align: left;
+  width: 120px;
+}
+
+label [type=submit] {
+  margin-left: 130px;
+}
+
+table {
+      border: 2px solid #000;
+      border-collapse: collapse;
+      width: 600px;
+}
+
+td, tr { text-align: center; }
+
+th { font-weight: bold; }
+
+tr:nth-child(even) { background-color: #F3F3F3; }
+    
+tr:nth-child(odd) { background-color: #ddd; }
+
+@media only screen and (max-width: 64em) {
+  body {
+    background-color: #af8144;
+    background-image: none;
+    margin: 0;
+  }
+  
+  #wrapper {
+    box-shadow: none;
+    min-width: 0;
+    width: auto;
+  }
+  
+  h1 {
+    background-image: url(../images/outdoorsspotmobile.gif);
+    margin: 0;
+  }
+  
+  main { margin-left: 0; }
+  
+  nav {
+    float: none;
+    padding: 0;
+    width: auto;
+  }
+  
+  nav ul { text-align: center; }
+  
+  nav li {
+    display: inline;
+    padding: 0 0 .75em;
+  }
+}
+  
+@media only screen and (max-width: 37.5em) {
+  nav li {
+    background-color: #af8144;
+    box-shadow: 2px 2px 2px #330000;
+    display: inline-block;
+    font-size: 120%;
+    margin: 1%;
+    padding: 2.5%;
+    text-align: center;
+    width: 5em;
+  }
+  
+  nav a { display: block; }
+  
+  main a:link { color: #fff; }
+  
+  main a:visited { color: #228b22; }
+  
+  nav a:hover, nav a:focus { color: #0000ff; }
+  
+  main a:hover, main a:focus { color: #0000ff; }
+  
+  article { margin: 0; }
+  
+  article img { display: none; }
+  
+  .mobile { display: inline; }
+  
+  .desktop { display: none; }
+}
