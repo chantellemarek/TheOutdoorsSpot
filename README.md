@@ -1,5 +1,5 @@
 # TheOutdoorsSpot
-The Outdoors Spot is a website created using HTML and CSS. The purpose of the site is to inform users about Wisconsin hunting and fishing regulations. Along with common animals and fish that call Wisconsin their home. I have a passion for the outdoors and nature. Which inspired me to create this website. This is my first project ever made in college. I am proud of how it turned out.
+A  basic website built with HTML and CSS. Demonstrates the  use of web accessibility  features. 
 
 # How to Access - Developers
 1. Download the files
