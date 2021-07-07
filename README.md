@@ -1,4 +1,4 @@
-# TheOutdoorsSpot
+# The Outdoors Spot
 A  basic website built with HTML and CSS. Demonstrates the  use of web accessibility  features. 
 
 # How to Access - Developers
